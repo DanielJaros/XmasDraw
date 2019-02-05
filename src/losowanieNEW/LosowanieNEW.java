@@ -19,7 +19,7 @@ public class LosowanieNEW extends JFrame
     }
 
     public void iniComponents() {
-        this.setTitle("Świąteczne Losowanie");
+        this.setTitle("Xmas Draw");
         this.setBounds(300, 300, 600, 100);
 
         panel.add(panelAdd, BorderLayout.PAGE_START);
@@ -99,20 +99,20 @@ public class LosowanieNEW extends JFrame
         JList drawedList = new JList();
         JScrollPane scrollMembersList = new JScrollPane(panelMembersList);
 
-        JLabel label = new JLabel("Losuje: ");
+        JLabel label = new JLabel("Drawing: ");
         protected static JLabel whoDrawLabel = new JLabel("                                   ");
         protected static JLabel resultLabel = new JLabel("                                   ");
-        JLabel endOfDraw = new JLabel("Losowanie zakończone");
+        JLabel endOfDraw = new JLabel("Draw over");
 
 
 
 
-        JButton buttonDraw = new JButton("Losowanie");
-        JButton clear = new JButton("Czyszczenie");
-        JButton add = new JButton("Dodaj");
-        JButton complete = new JButton("Zakończ dodawanie");
+        JButton buttonDraw = new JButton("Draw");
+        JButton clear = new JButton("Clear");
+        JButton add = new JButton("Add");
+        JButton complete = new JButton("Stop adding");
 
-        protected static JTextField writeNameTextField = new JTextField("wpisz imię");
+        protected static JTextField writeNameTextField = new JTextField("Name");
 
 
         DrawClear drawClear = new DrawClear();
