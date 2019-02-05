@@ -6,9 +6,9 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class LosowanieNEW extends JFrame
+public class XmasDraw extends JFrame
 {
-    public LosowanieNEW()
+    public XmasDraw()
     {
         iniComponents();
     }
@@ -123,7 +123,7 @@ public class LosowanieNEW extends JFrame
     public static void main(String[] args)
 
         {
-        new LosowanieNEW().setVisible(true);
+        new XmasDraw().setVisible(true);
 
         }
 

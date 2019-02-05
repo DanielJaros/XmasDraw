@@ -18,9 +18,9 @@ public class Complete {
             int randomIndex = rand.nextInt(DrawClear.membersListModel.size());
             String drawedElement = (String) DrawClear.membersListModel.getElementAt(randomIndex);
 
-            LosowanieNEW.whoDrawLabel.setText(drawedElement);
+            XmasDraw.whoDrawLabel.setText(drawedElement);
         }
 
-        LosowanieNEW.completeFlag = 1;
+        XmasDraw.completeFlag = 1;
     }
 }

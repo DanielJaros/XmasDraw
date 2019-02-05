@@ -9,12 +9,12 @@ public class AddMembers
 
  public void addMembers(){
 
-  if(LosowanieNEW.completeFlag == 0) {
+  if(XmasDraw.completeFlag == 0) {
 
-   LosowanieNEW.allMembersListModel.addElement(LosowanieNEW.writeNameTextField.getText());
+   XmasDraw.allMembersListModel.addElement(XmasDraw.writeNameTextField.getText());
 
-   DrawClear.membersListModel.addElement(LosowanieNEW.writeNameTextField.getText());
-   DrawClear.drawListModel.addElement(LosowanieNEW.writeNameTextField.getText());
+   DrawClear.membersListModel.addElement(XmasDraw.writeNameTextField.getText());
+   DrawClear.drawListModel.addElement(XmasDraw.writeNameTextField.getText());
   }
  }
 

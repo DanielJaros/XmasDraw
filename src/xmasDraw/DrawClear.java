@@ -8,13 +8,13 @@ public class DrawClear
 
     public DrawClear()
     {
-//        membersListModel.addElement(LosowanieNEW.momDad);
-//        membersListModel.addElement(LosowanieNEW.annPablo);
-//        membersListModel.addElement(LosowanieNEW.paulaDano);
+//        membersListModel.addElement(XmasDraw.momDad);
+//        membersListModel.addElement(XmasDraw.annPablo);
+//        membersListModel.addElement(XmasDraw.paulaDano);
 //
-//        drawListModel.addElement(LosowanieNEW.momDad);
-//        drawListModel.addElement(LosowanieNEW.annPablo);
-//        drawListModel.addElement(LosowanieNEW.paulaDano);
+//        drawListModel.addElement(XmasDraw.momDad);
+//        drawListModel.addElement(XmasDraw.annPablo);
+//        drawListModel.addElement(XmasDraw.paulaDano);
 
 
     }
@@ -92,7 +92,7 @@ public class DrawClear
 
                 for (int i = 0; i < drawListModel.size(); i++)
                 {
-                    if (LosowanieNEW.whoDrawLabel.getText().equals(drawListModel.getElementAt(i)))
+                    if (XmasDraw.whoDrawLabel.getText().equals(drawListModel.getElementAt(i)))
                     {
                         for (int j = 0; j < drawListModel.size(); j++) {
                             tempListModel.addElement(drawListModel.getElementAt(j));
@@ -137,14 +137,14 @@ public class DrawClear
 
         public void clear()
         {
-            lastWhoDraw = LosowanieNEW.whoDrawLabel.getText();
+            lastWhoDraw = XmasDraw.whoDrawLabel.getText();
             System.out.println("lastWhoDraw: "+ lastWhoDraw);
 
             if(!membersListModel.isEmpty() && clearFlag == 0)
             {
                 for (int k = 0; k < membersListModel.size(); k++)
                 {
-                    if (LosowanieNEW.whoDrawLabel.getText().equals(membersListModel.getElementAt(k)))
+                    if (XmasDraw.whoDrawLabel.getText().equals(membersListModel.getElementAt(k)))
                     {
                         membersListModel.removeElement(membersListModel.getElementAt(k));
                     }
