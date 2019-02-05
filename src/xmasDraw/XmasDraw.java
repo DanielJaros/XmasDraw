@@ -32,7 +32,7 @@ public class XmasDraw extends JFrame
 
 
         panelMembersList.add(membersList);
-        panelMembersList.setBorder(BorderFactory.createTitledBorder(BorderFactory.createLineBorder(Color.GRAY) , "Lista uczestników", TitledBorder.LEFT, TitledBorder.ABOVE_TOP));
+        panelMembersList.setBorder(BorderFactory.createTitledBorder(BorderFactory.createLineBorder(Color.GRAY) , "Members list", TitledBorder.LEFT, TitledBorder.ABOVE_TOP));
         panelMembersList.setPreferredSize(new Dimension((this.getWidth())/5, this.getHeight()));
 
 
