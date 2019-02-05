@@ -1,4 +1,4 @@
-package losowanieNEW;
+package xmasDraw;
 
 import javax.swing.*;
 import java.util.Random;

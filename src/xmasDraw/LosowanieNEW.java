@@ -1,15 +1,10 @@
-package losowanieNEW;
+package xmasDraw;
 
 import javax.swing.*;
-import javax.swing.border.Border;
 import javax.swing.border.TitledBorder;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.lang.reflect.Array;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Random;
 
 public class LosowanieNEW extends JFrame
 {

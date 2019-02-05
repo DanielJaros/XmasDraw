@@ -1,4 +1,4 @@
-package losowanieNEW;
+package xmasDraw;
 
 public class AddMembers
 {
